@@ -53,7 +53,7 @@ export const CategoryTabs: React.FC<CategoryTabsProps> = ({
       onTouchEnd={handleTouchEnd}
     >
       {/* Tab buttons */}
-      <div className="flex gap-2 mb-4 overflow-x-auto pb-2 scrollbar-hide">
+      <div className="flex justify-evenly mb-4 pb-2">
         {categories.map((category) => {
           const completedTasks = category.tasks.filter(task => task.completed).length;
           const totalTasks = category.tasks.length;
@@ -64,7 +64,7 @@ export const CategoryTabs: React.FC<CategoryTabsProps> = ({
               variant={activeCategory === category.id ? "default" : "outline"}
               onClick={() => onCategoryChange(category.id)}
               className={cn(
-                "flex-shrink-0 relative transition-all duration-300",
+                "flex-1 mx-1 relative transition-all duration-300 text-xs",
                 activeCategory === category.id 
                   ? "bg-gradient-primary text-primary-foreground shadow-elevated" 
                   : "hover:border-primary/50"
