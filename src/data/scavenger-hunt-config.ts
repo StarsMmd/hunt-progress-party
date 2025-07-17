@@ -11,7 +11,7 @@ export const scavengerHuntConfig: ScavengerHuntConfig = {
   categories: [
     {
       id: "photo",
-      name: "Photo Tasks",
+      name: "Catch",
       tasks: [
         {
           id: "selfie-landmark",
@@ -59,7 +59,7 @@ export const scavengerHuntConfig: ScavengerHuntConfig = {
     },
     {
       id: "exploration",
-      name: "Exploration",
+      name: "Explore",
       tasks: [
         {
           id: "hidden-treasure",
@@ -107,7 +107,7 @@ export const scavengerHuntConfig: ScavengerHuntConfig = {
     },
     {
       id: "challenges",
-      name: "Challenges",
+      name: "Play",
       tasks: [
         {
           id: "local-trivia",
