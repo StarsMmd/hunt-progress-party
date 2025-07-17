@@ -1,8 +1,23 @@
 import { ScavengerHuntConfig } from '@/types/scavenger-hunt';
 import treasureChest from '@/assets/treasure-chest.png';
-import cameraTask from '@/assets/camera-task.png';
 import searchTask from '@/assets/search-task.png';
 import starTask from '@/assets/star-task.png';
+import pikachuSummerHat from '@/assets/pikachu-summer-hat.png';
+import alolanGeodude from '@/assets/alolan-geodude.png';
+import wooloo from '@/assets/wooloo.png';
+import sandshrew from '@/assets/sandshrew.png';
+import phanpy from '@/assets/phanpy.png';
+import venipede from '@/assets/venipede.png';
+import golett from '@/assets/golett.png';
+import varoom from '@/assets/varoom.png';
+import voltorb from '@/assets/voltorb.png';
+import foongus from '@/assets/foongus.png';
+import galarianStunfisk from '@/assets/galarian-stunfisk.png';
+import unown from '@/assets/unown.png';
+import electrode from '@/assets/electrode.png';
+import terrakion from '@/assets/terrakion.png';
+import xxlLetters from '@/assets/xxl-letters.png';
+import shinySparkles from '@/assets/shiny-sparkles.png';
 
 export const scavengerHuntConfig: ScavengerHuntConfig = {
   title: "Epic Scavenger Hunt",
@@ -14,45 +29,115 @@ export const scavengerHuntConfig: ScavengerHuntConfig = {
       name: "Catch",
       tasks: [
         {
-          id: "selfie-landmark",
-          title: "Take a selfie at a local landmark",
-          image: cameraTask,
+          id: "summer-hat-pikachu",
+          title: "Catch A Summer Hat Pikachu",
+          image: pikachuSummerHat,
           points: 25,
           completed: false
         },
         {
-          id: "team-photo",
-          title: "Group photo with all team members",
-          image: cameraTask,
-          points: 30,
-          completed: false
-        },
-        {
-          id: "sunset-photo",
-          title: "Capture a beautiful sunset",
-          image: cameraTask,
+          id: "alolan-geodude",
+          title: "Catch An Alolan Geodude",
+          image: alolanGeodude,
           points: 20,
           completed: false
         },
         {
-          id: "street-art",
-          title: "Find and photograph street art",
-          image: cameraTask,
+          id: "wooloo",
+          title: "Catch A Wooloo",
+          image: wooloo,
           points: 15,
           completed: false
         },
         {
-          id: "funny-sign",
-          title: "Photo with a funny sign",
-          image: cameraTask,
-          points: 10,
+          id: "sandshrew",
+          title: "Catch A Sandshrew",
+          image: sandshrew,
+          points: 15,
           completed: false
         },
         {
-          id: "pet-encounter",
-          title: "Picture with a friendly pet",
-          image: cameraTask,
+          id: "phanpy",
+          title: "Catch A Phanpy",
+          image: phanpy,
+          points: 20,
+          completed: false
+        },
+        {
+          id: "venipede",
+          title: "Catch A Venipede",
+          image: venipede,
           points: 15,
+          completed: false
+        },
+        {
+          id: "golett",
+          title: "Catch A Golett",
+          image: golett,
+          points: 20,
+          completed: false
+        },
+        {
+          id: "varoom",
+          title: "Catch A Varoom",
+          image: varoom,
+          points: 25,
+          completed: false
+        },
+        {
+          id: "voltorb",
+          title: "Catch A Voltorb",
+          image: voltorb,
+          points: 15,
+          completed: false
+        },
+        {
+          id: "foongus",
+          title: "Catch A Foongus",
+          image: foongus,
+          points: 15,
+          completed: false
+        },
+        {
+          id: "galarian-stunfisk",
+          title: "Catch A Galarian Stunfisk",
+          image: galarianStunfisk,
+          points: 30,
+          completed: false
+        },
+        {
+          id: "unown",
+          title: "Catch An Unown",
+          image: unown,
+          points: 35,
+          completed: false
+        },
+        {
+          id: "wild-electrode",
+          title: "Catch A Wild Electrode",
+          image: electrode,
+          points: 25,
+          completed: false
+        },
+        {
+          id: "terrakion",
+          title: "Catch A Terrakion",
+          image: terrakion,
+          points: 50,
+          completed: false
+        },
+        {
+          id: "xxl-pokemon",
+          title: "Catch An XXL Pokemon",
+          image: xxlLetters,
+          points: 30,
+          completed: false
+        },
+        {
+          id: "shiny-pokemon",
+          title: "Catch A Shiny Pokemon",
+          image: shinySparkles,
+          points: 40,
           completed: false
         }
       ]
