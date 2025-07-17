@@ -32,112 +32,112 @@ export const scavengerHuntConfig: ScavengerHuntConfig = {
           id: "summer-hat-pikachu",
           title: "Catch A Summer Hat Pikachu",
           image: pikachuSummerHat,
-          points: 25,
+          points: 5,
           completed: false
         },
         {
           id: "alolan-geodude",
           title: "Catch An Alolan Geodude",
           image: alolanGeodude,
-          points: 20,
+          points: 5,
           completed: false
         },
         {
           id: "wooloo",
           title: "Catch A Wooloo",
           image: wooloo,
-          points: 15,
+          points: 5,
           completed: false
         },
         {
           id: "sandshrew",
           title: "Catch A Sandshrew",
           image: sandshrew,
-          points: 15,
+          points: 5,
           completed: false
         },
         {
           id: "phanpy",
           title: "Catch A Phanpy",
           image: phanpy,
-          points: 20,
+          points: 5,
           completed: false
         },
         {
           id: "venipede",
           title: "Catch A Venipede",
           image: venipede,
-          points: 15,
+          points: 5,
           completed: false
         },
         {
           id: "golett",
           title: "Catch A Golett",
           image: golett,
-          points: 20,
+          points: 5,
           completed: false
         },
         {
           id: "varoom",
           title: "Catch A Varoom",
           image: varoom,
-          points: 25,
+          points: 5,
           completed: false
         },
         {
           id: "voltorb",
           title: "Catch A Voltorb",
           image: voltorb,
-          points: 15,
+          points: 5,
           completed: false
         },
         {
           id: "foongus",
           title: "Catch A Foongus",
           image: foongus,
-          points: 15,
+          points: 5,
           completed: false
         },
         {
           id: "galarian-stunfisk",
           title: "Catch A Galarian Stunfisk",
           image: galarianStunfisk,
-          points: 30,
+          points: 5,
           completed: false
         },
         {
           id: "unown",
           title: "Catch An Unown",
           image: unown,
-          points: 35,
+          points: 5,
           completed: false
         },
         {
           id: "wild-electrode",
           title: "Catch A Wild Electrode",
           image: electrode,
-          points: 25,
+          points: 15,
           completed: false
         },
         {
           id: "terrakion",
           title: "Catch A Terrakion",
           image: terrakion,
-          points: 50,
+          points: 15,
           completed: false
         },
         {
           id: "xxl-pokemon",
           title: "Catch An XXL Pokemon",
           image: xxlLetters,
-          points: 30,
+          points: 15,
           completed: false
         },
         {
           id: "shiny-pokemon",
           title: "Catch A Shiny Pokemon",
           image: shinySparkles,
-          points: 40,
+          points: 15,
           completed: false
         }
       ]
