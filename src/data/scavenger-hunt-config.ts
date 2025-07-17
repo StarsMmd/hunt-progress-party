@@ -272,7 +272,7 @@ export const scavengerHuntConfig: ScavengerHuntConfig = {
         },
         {
           id: "ar-photo-tower-bridge",
-          title: "AR Photo With Tower Bridge In The Background",
+          title: "Take An AR Photo With Tower Bridge In The Background",
           image: starTask,
           points: 25,
           completed: false
