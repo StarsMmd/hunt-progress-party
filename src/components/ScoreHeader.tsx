@@ -2,13 +2,18 @@ import React from 'react';
 import { Trophy, Target } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 import { ProgressBar } from './ProgressBar';
+import { CategoryTabs } from './CategoryTabs';
 import { cn } from '@/lib/utils';
+import { Category } from '@/types/scavenger-hunt';
 
 interface ScoreHeaderProps {
   title: string;
   currentScore: number;
   maxScore: number;
   milestones: number[];
+  categories: Category[];
+  activeCategory: string;
+  onCategoryChange: (categoryId: string) => void;
   className?: string;
 }
 
@@ -17,6 +22,9 @@ export const ScoreHeader: React.FC<ScoreHeaderProps> = ({
   currentScore,
   maxScore,
   milestones,
+  categories,
+  activeCategory,
+  onCategoryChange,
   className
 }) => {
   const completionPercentage = Math.round((currentScore / maxScore) * 100);
@@ -71,6 +79,15 @@ export const ScoreHeader: React.FC<ScoreHeaderProps> = ({
             currentScore={currentScore}
             maxScore={maxScore}
             milestones={milestones}
+          />
+        </div>
+        
+        {/* Category Tabs */}
+        <div className="mt-4 border-t border-border/50 pt-4">
+          <CategoryTabs 
+            categories={categories}
+            activeCategory={activeCategory}
+            onCategoryChange={onCategoryChange}
           />
         </div>
       </div>

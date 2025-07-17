@@ -46,18 +46,10 @@ export const ScavengerHunt: React.FC<ScavengerHuntProps> = ({ config, className 
         currentScore={currentScore}
         maxScore={config.maxPoints}
         milestones={config.milestones}
+        categories={categories}
+        activeCategory={activeCategory}
+        onCategoryChange={setActiveCategory}
       />
-      
-      {/* Sticky Category Tabs */}
-      <div className="sticky top-0 z-10 bg-background/95 backdrop-blur-sm border-b border-border/50">
-        <div className="p-4 pb-2">
-          <CategoryTabs 
-            categories={categories}
-            activeCategory={activeCategory}
-            onCategoryChange={setActiveCategory}
-          />
-        </div>
-      </div>
       
       <div className="p-4 pb-8">
         
