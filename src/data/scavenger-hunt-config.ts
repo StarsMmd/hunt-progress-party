@@ -147,45 +147,45 @@ export const scavengerHuntConfig: ScavengerHuntConfig = {
       name: "Explore",
       tasks: [
         {
-          id: "hidden-treasure",
-          title: "Find the hidden treasure box",
-          image: treasureChest,
-          points: 50,
+          id: "road-trip-pokestop",
+          title: "Spin The Photodisc On A Road Trip Pokestop",
+          image: searchTask,
+          points: 5,
           completed: false
         },
         {
-          id: "secret-location",
-          title: "Discover the secret location",
+          id: "road-trip-gym",
+          title: "Spin The Photodisc On A Road Trip Gym",
           image: searchTask,
-          points: 40,
+          points: 5,
           completed: false
         },
         {
-          id: "oldest-building",
-          title: "Find the oldest building",
+          id: "shard-gym",
+          title: "Spin The Photodisc On \"The Shard\" Gym",
           image: searchTask,
-          points: 30,
+          points: 15,
           completed: false
         },
         {
-          id: "water-feature",
-          title: "Locate a natural water feature",
+          id: "tower-bridge-gym",
+          title: "Spin The Photodisc On The \"Tower Bridge\" Gym",
           image: searchTask,
-          points: 25,
+          points: 15,
           completed: false
         },
         {
-          id: "highest-point",
-          title: "Reach the highest accessible point",
+          id: "london-monument-gym",
+          title: "Spin The Photodisc On \"The London Monument\" Gym",
           image: searchTask,
-          points: 35,
+          points: 15,
           completed: false
         },
         {
-          id: "local-shop",
-          title: "Visit the oldest local shop",
+          id: "tower-of-london-gym",
+          title: "Spin The Photodisc On One Of The \"Tower Of London\" Gyms",
           image: searchTask,
-          points: 20,
+          points: 15,
           completed: false
         }
       ]
