@@ -66,7 +66,7 @@ export const ScoreHeader: React.FC<ScoreHeaderProps> = ({
         </div>
         
         {/* Progress bar */}
-        <div className="space-y-2">
+        <div className="space-y-2 mt-2">
           <ProgressBar 
             currentScore={currentScore}
             maxScore={maxScore}
