@@ -48,13 +48,18 @@ export const ScavengerHunt: React.FC<ScavengerHuntProps> = ({ config, className 
         milestones={config.milestones}
       />
       
+      {/* Sticky Category Tabs */}
+      <div className="sticky top-0 z-10 bg-background/95 backdrop-blur-sm border-b border-border/50">
+        <div className="p-4 pb-2">
+          <CategoryTabs 
+            categories={categories}
+            activeCategory={activeCategory}
+            onCategoryChange={setActiveCategory}
+          />
+        </div>
+      </div>
+      
       <div className="p-4 pb-8">
-        <CategoryTabs 
-          categories={categories}
-          activeCategory={activeCategory}
-          onCategoryChange={setActiveCategory}
-          className="mb-6"
-        />
         
         {/* Task Grid */}
         <div className="grid grid-cols-2 gap-4 animate-slide-in">
