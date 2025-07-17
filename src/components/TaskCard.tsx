@@ -49,10 +49,10 @@ export const TaskCard: React.FC<TaskCardProps> = ({ task, onToggleComplete }) =>
         {/* Points badge */}
         <Badge 
           className={cn(
-            "absolute top-2 right-2 font-bold shadow-card",
+            "absolute top-2 right-2 font-bold shadow-card text-lg px-3 py-1 border border-white/30",
             task.completed 
-              ? "bg-success text-success-foreground" 
-              : "bg-gradient-primary text-primary-foreground"
+              ? "bg-success text-success-foreground border-success-foreground/30" 
+              : "bg-gradient-primary text-primary-foreground border-primary-foreground/30"
           )}
         >
           {task.points}pt
