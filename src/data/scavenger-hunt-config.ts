@@ -257,45 +257,45 @@ export const scavengerHuntConfig: ScavengerHuntConfig = {
       name: "Bonus",
       tasks: [
         {
-          id: "early-bird",
-          title: "Complete before 12 PM",
-          image: starTask,
-          points: 15,
-          completed: false
-        },
-        {
-          id: "help-stranger",
-          title: "Help a stranger with something",
+          id: "make-new-friend",
+          title: "Make A New Friend",
           image: starTask,
           points: 25,
           completed: false
         },
         {
-          id: "eco-friendly",
-          title: "Pick up 10 pieces of litter",
+          id: "join-party",
+          title: "Join A Party",
           image: starTask,
-          points: 20,
+          points: 25,
           completed: false
         },
         {
-          id: "local-food",
-          title: "Try a local food specialty",
+          id: "ar-photo-tower-bridge",
+          title: "AR Photo With Tower Bridge In The Background",
           image: starTask,
-          points: 15,
+          points: 25,
           completed: false
         },
         {
-          id: "new-friend",
-          title: "Make a new friend",
+          id: "trade-5000km",
+          title: "Make A Trade With A Distance Of 5000km Or More",
           image: starTask,
-          points: 30,
+          points: 25,
           completed: false
         },
         {
-          id: "perfect-score",
-          title: "Complete all tasks in a category",
-          image: treasureChest,
-          points: 50,
+          id: "send-road-trip-gift",
+          title: "Send A Gift With A Road Trip Postcard",
+          image: starTask,
+          points: 25,
+          completed: false
+        },
+        {
+          id: "campfire-checkin",
+          title: "Check In To The Scavenger Hunt On Campfire",
+          image: starTask,
+          points: 25,
           completed: false
         }
       ]
