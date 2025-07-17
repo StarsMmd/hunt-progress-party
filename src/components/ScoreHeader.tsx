@@ -67,10 +67,6 @@ export const ScoreHeader: React.FC<ScoreHeaderProps> = ({
         
         {/* Progress bar */}
         <div className="space-y-2">
-          <div className="flex justify-between text-sm text-muted-foreground">
-            <span>Progress</span>
-            <span>{currentScore}/{maxScore} points</span>
-          </div>
           <ProgressBar 
             currentScore={currentScore}
             maxScore={maxScore}
