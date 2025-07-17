@@ -195,45 +195,59 @@ export const scavengerHuntConfig: ScavengerHuntConfig = {
       name: "Play",
       tasks: [
         {
-          id: "local-trivia",
-          title: "Answer 5 local trivia questions",
+          id: "defeat-team-rocket",
+          title: "Defeat A Team Rocket Grunt",
           image: starTask,
-          points: 30,
+          points: 5,
           completed: false
         },
         {
-          id: "skill-demo",
-          title: "Demonstrate a special skill",
+          id: "win-raid-battle",
+          title: "Win A Raid Battle",
           image: starTask,
-          points: 25,
+          points: 5,
           completed: false
         },
         {
-          id: "riddle-solve",
-          title: "Solve the mystery riddle",
+          id: "win-max-battle",
+          title: "Win A Max Battle",
           image: starTask,
-          points: 40,
+          points: 5,
           completed: false
         },
         {
-          id: "creative-task",
-          title: "Complete the creative challenge",
+          id: "snapshot-with-buddy",
+          title: "Take A Snapshot With Summer Hat Pikachu As Your Buddy",
           image: starTask,
-          points: 35,
+          points: 5,
           completed: false
         },
         {
-          id: "time-challenge",
-          title: "Beat the 5-minute time challenge",
+          id: "hatch-an-egg",
+          title: "Hatch An Egg",
           image: starTask,
-          points: 20,
+          points: 5,
           completed: false
         },
         {
-          id: "team-puzzle",
-          title: "Solve the team puzzle together",
+          id: "evolve-summer-pikachu",
+          title: "Evolve A Summer Hat Pikachu",
           image: starTask,
-          points: 30,
+          points: 5,
+          completed: false
+        },
+        {
+          id: "evolve-alolan-graveler",
+          title: "Evolve An Alolan Graveler Into An Alolan Golem",
+          image: starTask,
+          points: 15,
+          completed: false
+        },
+        {
+          id: "earn-buddy-hearts",
+          title: "Earn 7 Buddy Hearts With Summer Hat Pikachu As Your Buddy",
+          image: starTask,
+          points: 15,
           completed: false
         }
       ]
