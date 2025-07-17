@@ -66,7 +66,7 @@ export const ProgressBar: React.FC<ProgressBarProps> = ({
               style={{ left: `${position}%` }}
             >
               <div className={cn(
-                "absolute -top-6 left-1/2 transform -translate-x-1/2 text-xs font-medium transition-all duration-300",
+                "absolute -bottom-6 left-1/2 transform -translate-x-1/2 text-xs font-medium transition-all duration-300",
                 isReached ? "text-success" : "text-muted-foreground"
               )}>
                 {milestone}
