@@ -36,7 +36,7 @@ export const ProgressBar: React.FC<ProgressBarProps> = ({
   }, [currentScore, milestones, lastMilestone]);
 
   return (
-    <div className={cn("relative w-full", className)}>
+    <div className={cn("relative w-full pb-8", className)}>
       <div className="w-full h-3 bg-secondary rounded-full overflow-hidden shadow-inner">
         <div 
           className="h-full bg-gradient-primary transition-all duration-300 ease-out relative"
@@ -66,7 +66,7 @@ export const ProgressBar: React.FC<ProgressBarProps> = ({
               style={{ left: `${position}%` }}
             >
               <div className={cn(
-                "absolute -bottom-6 left-1/2 transform -translate-x-1/2 text-xs font-medium transition-all duration-300",
+                "absolute -bottom-5 left-1/2 transform -translate-x-1/2 text-xs font-medium transition-all duration-300",
                 isReached ? "text-success" : "text-muted-foreground"
               )}>
                 {milestone}
