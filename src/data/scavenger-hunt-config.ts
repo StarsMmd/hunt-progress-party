@@ -79,7 +79,7 @@ export const scavengerHuntConfig: ScavengerHuntConfig = {
         },
         {
           id: "varoom",
-          title: "Catch A Varoom",
+          title: "Evolve An Alolan Geodude Into Alolan Graveler",
           image: varoom,
           points: 5,
           completed: false
