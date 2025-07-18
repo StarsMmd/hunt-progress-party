@@ -237,7 +237,7 @@ export const scavengerHuntConfig: ScavengerHuntConfig = {
         {
           id: "snapshot-with-buddy",
           title: "Take A Snapshot With Summer Hat Pikachu As Your Buddy",
-          image: camera
+          image: camera,
           points: 5,
           completed: false
         },
