@@ -39,7 +39,7 @@ import graveler from '@/assets/alolan-graveler.png';
 
 
 export const scavengerHuntConfig: ScavengerHuntConfig = {
-  title: "Epic Scavenger Hunt",
+  title: "Pokemon Go Road Trip London",
   maxPoints: 400,
   milestones: [250, 300, 350],
   categories: [
