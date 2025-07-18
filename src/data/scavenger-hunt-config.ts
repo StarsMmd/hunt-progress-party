@@ -11,28 +11,29 @@ import voltorb from '@/assets/voltorb.png';
 import foongus from '@/assets/foongus.png';
 import galarianStunfisk from '@/assets/galarian-stunfisk.png';
 import unown from '@/assets/unown.png';
-import electrode from '@/assets/electrode.png';
+import electrode from '@/assets/electrode-his.png';
 import terrakion from '@/assets/terrakion.png';
 import xxlLetters from '@/assets/xxl-letters.jpg';
 import shinySparkles from '@/assets/shiny-sparkles.jpg';
-import buddyhearts from '@assets/buddy-hearts.jpg';
-import shard from 'assets/shard.jpg';
-import tower from 'asets/tower.jpg';
-import towerBridge from 'asets/tower-bridge.jpg';
-import monument from 'asets/monument.jpg';
-import gym from 'asets/gym.png';
-import pokestop from 'asets/pokestop.jpg';
-import evolveRaichu from 'asets/evolve-raichu.png';
-import camera from 'asets/camera.jpg';
-import dynamax from 'asets/dynamax.png';
-import checkin from 'asets/check-in.jpg';
-import gift from 'asets/gift.png';
-import tradeDistance from 'asets/trade-distance.png';
-import party from 'asets/party.jpg';
-import friend from 'asets/friend.jpg';
-import buddyhearts from 'asets/buddy-hearts.jpg';
-import raid from 'asets/raid.jpg';
-import rocket from 'asets/rocket.jpg';
+import buddyhearts from '@/assets/buddy-hearts.jpg';
+import shard from '@/assets/shard.jpg';
+import tower from '@/asets/tower.jpg';
+import towerBridge from '@/asets/tower-bridge.jpg';
+import monument from '@/asets/monument.jpg';
+import gym from '@/asets/gym.png';
+import pokestop from '@/asets/pokestop.jpg';
+import evolveRaichu from '@/asets/evolve-raichu.png';
+import camera from '@/asets/camera.jpg';
+import dynamax from '@/asets/dynamax.png';
+import checkin from '@/asets/check-in.jpg';
+import gift from '@/asets/gift.png';
+import tradeDistance from '@/asets/trade-distance.png';
+import party from '@/asets/party.jpg';
+import friend from '@/asets/friend.jpg';
+import buddyhearts from '@/asets/buddy-hearts.jpg';
+import raid from '@/asets/raid.jpg';
+import rocket from '@/asets/rocket.jpg';
+import graveler from '@/assets/alolan-graveler.png';
 
 
 
@@ -98,7 +99,7 @@ export const scavengerHuntConfig: ScavengerHuntConfig = {
         {
           id: "varoom",
           title: "Evolve An Alolan Geodude Into Alolan Graveler",
-          image: alolanGolem,
+          image: graveler,
           points: 5,
           completed: false
         },
