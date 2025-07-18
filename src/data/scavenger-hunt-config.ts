@@ -195,7 +195,7 @@ export const scavengerHuntConfig: ScavengerHuntConfig = {
         },
         {
           id: "london-monument-gym",
-          title: "Spin The Photodisc On \"The London Monument\" Gym",
+          title: "Spin The Photodisc On \"The Monument to the Great Fire of London\" Gym",
           image: monument,
           points: 15,
           completed: false
