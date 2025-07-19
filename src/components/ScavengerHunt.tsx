@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import { ScoreHeader } from './ScoreHeader';
 import { CategoryTabs } from './CategoryTabs';
 import { TaskCard } from './TaskCard';
@@ -11,8 +11,37 @@ interface ScavengerHuntProps {
 }
 
 export const ScavengerHunt: React.FC<ScavengerHuntProps> = ({ config, className }) => {
-  const [categories, setCategories] = useState(config.categories);
+  const [categories, setCategories] = useState(() => {
+    const saved = localStorage.getItem('scavenger-hunt-progress');
+    if (saved) {
+      try {
+        const savedCategories = JSON.parse(saved);
+        // Merge saved completion state with current config
+        return config.categories.map(category => {
+          const savedCategory = savedCategories.find((saved: any) => saved.id === category.id);
+          if (savedCategory) {
+            return {
+              ...category,
+              tasks: category.tasks.map(task => {
+                const savedTask = savedCategory.tasks.find((saved: any) => saved.id === task.id);
+                return savedTask ? { ...task, completed: savedTask.completed } : task;
+              })
+            };
+          }
+          return category;
+        });
+      } catch (error) {
+        console.error('Failed to parse saved progress:', error);
+      }
+    }
+    return config.categories;
+  });
   const [activeCategory, setActiveCategory] = useState(config.categories[0]?.id || '');
+
+  // Save progress to localStorage whenever categories change
+  useEffect(() => {
+    localStorage.setItem('scavenger-hunt-progress', JSON.stringify(categories));
+  }, [categories]);
 
   const currentScore = categories.reduce((total, category) => 
     total + category.tasks.reduce((catTotal, task) => 
